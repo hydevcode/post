@@ -1,0 +1,9 @@
+{
+  "attachmentFolderPath": "./images",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "images/"
+  ]
+}
