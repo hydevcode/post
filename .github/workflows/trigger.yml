@@ -4,13 +4,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   trigger-repoB:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger RepoB workflow
         env:
-          REPO_TOKEN: ${{ secrets.REPO_PAT }}  # 仓库B的Personal Access Token
+          REPO_TOKEN: ${{ secrets.REPO_PAT }}
         run: |
           curl -XPOST \
             -H "Authorization: token $REPO_TOKEN" \
