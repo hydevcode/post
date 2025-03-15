@@ -55,7 +55,7 @@ jobs:
 
 ## 可能的安全风险
 
-![](git/Github%20Pull_request_target学习笔记/images/Pasted%20image%2020250315192253.png)
+![](Github%20Pull_request_target学习笔记/images/Pasted%20image%2020250315192253.png)
 
 - 来自官方文档https://docs.github.com/zh/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#pull_request_target
     
