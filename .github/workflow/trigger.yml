@@ -1,0 +1,19 @@
+name: Trigger External Workflow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger-repoB:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger RepoB workflow
+        env:
+          REPO_TOKEN: ${{ secrets.REPO_PAT }}  # 仓库B的Personal Access Token
+        run: |
+          curl -XPOST \
+            -H "Authorization: token $REPO_TOKEN" \
+            -H "Accept: application/vnd.github.everest-preview+json" \
+            "https://api.github.com/repos/hydevcode/hugo-blog/dispatches" \
+            -d '{"event_type": "trigger_action"}'
