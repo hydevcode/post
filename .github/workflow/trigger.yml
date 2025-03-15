@@ -3,7 +3,7 @@ name: Trigger External Workflow
 on:
   push:
     branches: [main]
-
+  workflow_dispatch:
 jobs:
   trigger-repoB:
     runs-on: ubuntu-latest
