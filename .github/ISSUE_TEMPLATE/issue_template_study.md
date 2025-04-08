@@ -1,8 +1,8 @@
 ---
 name: 📝 学习笔记
-about: 
-title: '[学习] <title>'
-labels: 
+about: 记录日常的一些学习内容
+title: '[📝学习笔记] '
+labels: Study
 assignees: ''
 
 ---

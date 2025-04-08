@@ -1,8 +1,8 @@
 ---
 name: 📚 读书笔记模板
-about: 
-title: '[Read] <title>'
-labels: 
+about: 记录阅读的一些感想和笔记
+title: '[📚读书笔记] '
+labels: Read
 assignees: ''
 
 ---

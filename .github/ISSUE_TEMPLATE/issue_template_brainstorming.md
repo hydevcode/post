@@ -1,6 +1,6 @@
 ---
 name: 💡头脑风暴
-about: 如题
+about: 想法的思考
 title: '[💡头脑风暴] <title>'
 labels: 
 assignees: ''

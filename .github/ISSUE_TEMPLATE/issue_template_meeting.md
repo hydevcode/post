@@ -1,8 +1,8 @@
 ---
 name: 🕘 会议记录
-about: 
-title: '[Meeting] <title>'
-labels: 
+about: 会议记录
+title: '[🕘会议记录] <主题>'
+labels: Meeting
 assignees: ''
 
 ---
