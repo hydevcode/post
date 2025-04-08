@@ -1,3 +1,12 @@
+---
+name: 🐞 Bug
+about: File a bug/issue
+title: '[BUG] <title>'
+labels: Bug
+assignees: ''
+
+---
+
 # 🔨 Debug模板
 
 ## 报错情景
